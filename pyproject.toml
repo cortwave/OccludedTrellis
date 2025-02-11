@@ -1,0 +1,19 @@
+[project]
+name = "occluded-trellis"
+version = "0.1.1"
+description = "Occlusion tolerant version of TRELLIS"
+readme = "README.md"
+requires-python = ">=3.9.18"
+dependencies = []
+
+[tool.setuptools.packages.find]
+exclude = [
+    "demo",
+    "demo.*",
+    "assets",
+    "assets.*",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

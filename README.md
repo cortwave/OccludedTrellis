@@ -78,6 +78,7 @@ Since TRELLIS uses Dino tokens in cross-attention modules, we can also drop some
 pass fewer tokens). That's it :)
 
 ## ⚖️ License and acknowledgments
+Special thanks to [Slava Elizarov](https://x.com/DoctorDukeGonzo) 🙏 for help with the theoretical details! 🎓
 
 This repository uses and modifies code from:
 * [TRELLIS](https://github.com/microsoft/TRELLIS) (gradio demo and parts of the Image-to-Mesh pipeline)

@@ -10,17 +10,24 @@ Run [TRELLIS](https://github.com/microsoft/TRELLIS) Image2Mesh generation pipeli
 * You want to ignore some areas of the image.
 
 ## 🎨 Examples
-### 🖼️ Input images
-<img src="./assets/1_masked.jpg" alt="img1" width="200"/>
-<img src="./assets/2_masked.jpg" alt="img2" width="200"/>
+<table>
+  <tr>
+    <th>🖼️ Input images</th>
+    <th>🥷 TRELLIS results</th>
+    <th>🌟 Occluded TRELLIS results</th>
+  </tr>
+  <tr>
+    <td><img src="./assets/1_masked.jpg" alt="img1" width="200"/></td>
+    <td><img src="./assets/1_trellis.png" alt="img1" width="200" height="100"/></td>
+    <td><img src="./assets/1_occluded_trellis.png" alt="img1" width="200" height="100"/></td>
+  </tr>
+  <tr>
+    <td><img src="./assets/2_masked.jpg" alt="img2" width="200"/></td>
+    <td><img src="./assets/2_trellis.png" alt="img2" width="200" height="100"/></td>
+    <td><img src="./assets/2_occluded_trellis.png" alt="img2" width="200" height="100"/></td>
+  </tr>
+</table>
 
-### 🥷 TRELLIS results
-<img src="./assets/1_trellis.png" alt="img1" width="200" height="100"/>
-<img src="./assets/2_trellis.png" alt="img2" width="200" height="100"/>
-
-### 🌟 Occluded TRELLIS results
-<img src="./assets/1_occluded_trellis.png" alt="img1" width="200" height="100"/>
-<img src="./assets/2_occluded_trellis.png" alt="img2" width="200" height="100"/>
 
 ## 🔧 How to use
 
